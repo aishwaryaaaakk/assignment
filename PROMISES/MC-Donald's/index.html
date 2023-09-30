@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <title>MC DONALD'S</title>
+    <style>
+        body{
+            font-family: "Poppins";
+            background-color: rgb(193, 54, 54);
+        }
+
+        #main{
+            margin: auto;
+            margin-top: 100px;
+            width: 50%;
+            background-color: antiquewhite;
+            padding: 30px;
+            text-align: center;
+            border-radius: 18px;
+        }
+        p{
+            text-align: center;
+            font-size: large;
+        }
+        .food-items{
+            text-align: justify;
+        }
+        .food-items img{
+            width: 60px;
+            border-radius: 5px;
+        }
+        .food-items label{
+            font-size: large;
+        }
+        button{
+            background-color: rgb(248, 217, 105);
+            padding:20px ;
+            font-size: larger;
+            font-weight: bold;
+            border: none;
+            color: brown;
+            border-radius: 8px;
+        }
+        
+        #hidden{
+            display: none;
+            margin: auto;
+            margin-top: 100px;
+            width: 50%;
+            height: 400px;
+            padding: 30px;
+            background-color: burlywood;
+            border-radius: 18px;
+        }
+        #hidden h1{
+            text-align: center;
+            margin-top: 80px;
+        }
+        #hidden p{
+            text-align: right;
+        }
+        span{
+            font-size: 20px;
+        }
+        #show{
+            width: 50%;
+            display: flex;
+            justify-content: space-around;
+            margin: auto;
+        }
+        #show img {
+            width: 60px;
+            border-radius: 5px;
+        }
+        h2{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <h1>MC DONALD'S VIRTUAL ORDERING</h1>
+        <p>MENU</p>
+        <div class="food-items">
+            <img src="https://img.freepik.com/premium-vector/delicious-burger-icon-food-beverages_22052-1.jpg?w=740">
+            <input id="burger" type="checkbox" name="BURGER">
+            <label for="burger">BURGER</label>
+        </div>
+        <div class="food-items">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRP0orbYCB_wBMTbHGoMCm0zE8ug8ANMpvhg&usqp=CAU">
+            <input id="coke" type="checkbox" name="COKE">
+            <label for="coke">COKE</label>
+        </div>
+        <div class="food-items">
+            <img src="https://img.freepik.com/premium-vector/cute-happy-french-fries-icon-cartoon-illustration_274619-664.jpg?w=2000">
+            <input id="fries" type="checkbox" name="FRIES">
+            <label for="fries">FRIES</label>
+        </div>
+
+        <button onclick="placeOrder()">PLACE ORDER</button>
+
+        
+       
+    </div>
+    <div class="order-confirm" id="hidden">
+        
+        <p>Your Order No. is : <span id="order-number">12345</span> </p>
+        <h1>ORDER HAS BEEN PLACED!!!</h1>
+        <div id="show">
+            <img src="https://img.freepik.com/premium-vector/delicious-burger-icon-food-beverages_22052-1.jpg?w=740">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRP0orbYCB_wBMTbHGoMCm0zE8ug8ANMpvhg&usqp=CAU">
+            <img src="https://img.freepik.com/premium-vector/cute-happy-french-fries-icon-cartoon-illustration_274619-664.jpg?w=2000">
+        </div>
+        <h2>Have A Great Day!!</h2>
+
+    </div>
+</body>
+</html>
+<script src="./MCD.js"></script>
