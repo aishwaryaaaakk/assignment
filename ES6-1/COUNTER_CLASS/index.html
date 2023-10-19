@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <title>COUNTER</title>
+    <style>
+        body{
+            text-align: center;
+            font-family: 'Poppins';
+            
+        }
+        p{
+            font-size: 40px;
+            color: white;
+            text-shadow: 0px 0px 20px rgb(52, 52, 248);
+        }
+        div{
+            width: 47%;
+            height: 400px;
+            border: 2px solid black;
+            margin: auto;
+            text-align: center;
+            margin-top: 130px;
+            background-color: rgb(8, 8, 113);
+            border-radius: 22px;
+            box-shadow: 0px 0px 10px rgb(8, 8, 113);
+            
+        }
+        span{
+            margin-top: 70px;
+            font-size: 60px;
+            color: white;
+            text-shadow: 0px 0px 20px rgb(52, 52, 248);
+        }
+        button{
+            background-color: white;
+            color: rgb(8, 8, 113);
+            padding: 10px 20px;
+            cursor: pointer;
+            border: none;
+            font-size: 20px;
+            margin-left: 20px;
+            margin-top: 50px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 8px white;
+        }
+    </style>
+</head>
+<body>
+    
+    <div>
+        <p>MASAI COUNTER</p>
+        <span id="count">0</span>
+        <br>
+        <button id="startStopBtn">START</button>
+        <button id="incrementBtn">INCREMENT</button>
+        <button id="decrementBtn">DECREMENT</button>
+    </div>
+</body>
+</html>
+<script src="./counter.js"></script>
