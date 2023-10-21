@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <title>TODO</title>
+    <style>
+        body{
+            font-family: 'Poppins';
+        }
+        #heading{
+            text-align: center;
+            margin-top: 5%;
+            font-size: 30px;
+            text-decoration: underline;
+            font-weight: 200;
+            color: rgb(23, 23, 147);
+        }
+        #task-name{
+            font-size: 20px;
+            padding: 10px;
+            border-radius: 4px;
+            margin-left: 70px;
+        }
+        button{
+            background-color: rgb(59, 73, 167);
+            color: white;
+            font-size: 20px;
+            padding: 10px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-left: 10px;
+            box-shadow: 0px 0px 8px black;
+        }
+        button:hover{
+            opacity: .5;
+
+        }
+        #root{
+            margin-left: 20px;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+        }
+        .taskBox{
+            width: 80%;
+            height: 300px;
+            border: 2px solid black;
+            padding: 10px;
+            margin-top: 20px;
+            background-color: aliceblue;
+            border-radius: 20px;
+            
+        }
+        .taskBox p{
+            font-size: 20px;
+            margin-left: 20px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <p id="heading">YOUR DAILY PLANNER</p>
+    <input id="task-name" type="text" placeholder="Enter task name">
+    <button onclick="addTask()">ADD TASK</button>
+    <div id="root"></div>
+</body>
+</html>
+<script src="./index.js"></script>
