@@ -1,0 +1,92 @@
+.main{
+    background-color: rgb(245, 245, 245);
+}
+.top{
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    color: rgb(46, 82, 202);
+    padding: 30px;
+}
+.top>div{
+    font-size: 16px;
+}
+.icon{
+    color: rgb(84, 82, 82);
+    font-size: 40px;
+    padding: 30px;
+    margin-left: 25px;
+}
+.bottom{
+    color: rgb(46, 82, 202);
+    display: flex;
+}
+.bot-left{
+    width: 65%;
+}
+.links{
+    font-size: 14px;
+}
+.child-div{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.bot-child-div{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.bot-right{
+    width: 35%;
+    background-color: white;
+}
+.card{
+    width: 96%;
+    margin: auto;
+    height: 60vh;
+}
+.sign-in{
+    font-size: 12px;
+    padding: 15px;
+}
+.text{
+    padding: 15px;
+}
+.logo{
+    font-size: 55px;
+
+
+}
+.name{
+    display: flex;
+    padding: 15px;
+}
+.email{
+    padding: 15px;
+}
+input{
+    width: 70%;
+    font-size: 15px;
+    border: 1px solid black;
+    padding: 4px;
+    border-radius: 4px;
+}
+.sign-in-btn{
+    width: 20%;
+    color: white;
+    background-color: rgb(29, 69, 199);
+    padding: 4px;
+    border-radius: 4px;
+    margin-left: 25px;
+
+}
+.social-media{
+    display: flex;
+}
+.icon{
+    width: 25px;
+    color: rgb(46, 82, 202);
+}

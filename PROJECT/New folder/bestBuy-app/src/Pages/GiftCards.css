@@ -1,0 +1,82 @@
+.giftcard-top{
+    background-color: white;
+    color: black;
+}
+.giftcard-top>div{
+    margin-left: 250px;
+}
+.gift-card{
+    width: 90%;
+    height: 200px;
+    margin:auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(31, 69, 193);
+}
+.gift-card-left{
+    text-align: left;
+    padding-right: 50px;
+    padding-top: 50px;
+}
+.gift-card-left>p{
+    font-size:40px;
+    font-weight:bolder;
+}
+.gift-card-right{
+    text-align: left;
+    padding-right: 50px;
+    padding-top: 50px;
+}
+.gift-card-right>button{
+    border: none;
+    background-color: white;
+    color: rgb(31, 69, 193);
+    font-size: 15px;
+    padding: 5px;
+    font-weight: 600;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+.gift-card-right>button:hover{
+    border: 1px solid white;
+    background-color: rgb(31, 69, 193);
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+    font-weight: 600;
+    border-radius: 4px;
+}
+.gift-card-bot{
+    background-color: white;
+    color: black;
+    
+}
+.gift-card-bot>div{
+    width: 80%;
+    margin: auto;
+}
+.gift-card-bot>div>p{
+    font-size: 30px;
+    padding: 20px;
+}
+.gift-card-option{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.gift-card-option>div{
+    width: 24%;
+}
+.gift-card-option>div>img{
+    width: 200px;
+    height: 200px;
+}
+.gift-card-option>div>button{
+    color:rgb(31, 69, 193) ;
+    font-weight: bold;
+}
+.gift-card-option>div>p{
+    font-size: 13px;
+    color: grey;
+}

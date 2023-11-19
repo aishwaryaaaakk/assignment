@@ -1,0 +1,46 @@
+.main-body{
+    background-color: rgb(41, 41, 45);
+  }
+  .heading{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bolder;
+  }
+  .main-body>p{
+    margin-left: 100px;
+  }
+  .main-body>h6{
+    margin-bottom: 80px;
+    margin-left: 100px;
+    
+  }
+  .container{
+    display: grid;
+    width: 80%;
+    margin: auto;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+  }
+  
+  .container>div>p{
+    color: yellow;
+    padding: 30px;
+  }
+  .image-wrapper{
+    height: 250px;
+    width: 250px;
+    background-color: #fff;
+    border: 5px solid rgb(37, 124, 223);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  
+  
+  }
+  .image-wrapper>img{
+    width: 200px;
+    height: 200px;
+    border:30px solid white;
+  }
