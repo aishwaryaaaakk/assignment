@@ -1,0 +1,118 @@
+body{
+    font-family: Poppins;
+}
+#nav{
+    display: flex;
+    height: 75px;
+    justify-content: space-around;
+    
+}
+#nav.child{
+    padding: 30px;
+    width: auto;
+    text-align: center;
+
+}
+#nav_right{
+    display: flex;
+    justify-content: space-evenly;
+    width: auto;
+    margin: 10px;
+    align-items: center;
+    margin-right: 13px;
+    font-size: 25px;
+    
+     color: rgb(241, 53, 135); 
+}
+#nav_right>div>a{
+    word-spacing: normal;
+    padding: 20px;
+    color: rgb(241, 53, 135);
+    text-decoration: none;
+}
+#nav_right>div>a:hover{
+    cursor: pointer;
+    color: rgb(90, 134, 228);
+    background-color: rgb(81, 84, 92,0.2);
+}
+#nav_left{
+    align-self: center;
+    background-image: linear-gradient(to bottom right , rgb(241, 53, 135), rgb(90, 134, 228));
+    padding: 18px;
+    color: white;
+    font-size: 27px;
+}
+#main{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* gap: 20px; */
+}
+.card{
+    margin: auto;
+    margin-top: 40px;
+    width: 83%;
+    height: auto;
+    background-color: aliceblue;
+    border-radius: 50px; 
+    box-shadow: 0px 0px 10px black;
+
+}
+.card>img{
+    width: 350px;
+    height: 350px;
+    padding: 30px;
+    border-radius: 50px ;
+}
+.name-price{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.card>button{
+    background-image: linear-gradient(to bottom right , rgb(241, 53, 135,0.6), rgb(90, 134, 228,0.6));
+    color: white;
+    width: 50%;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    border-radius: 7px;
+}
+.card>button:hover{
+    background-color: rgb(90, 134, 228,0.6);
+}
+#bot-top{
+    text-align: center;
+    font-size: large;
+    margin-top: 40px;
+}
+#bot-top>.icons{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    margin: auto;
+    height: 50px;
+    margin-top: 70px;
+
+}
+#bot-top>.icons>div>button{
+    background-color: white;
+    border: none;
+    width: 20px;
+    height: 20px;
+    
+} 
+#bot-top>.icons>div>button>a>img{
+    width: 50px;
+    height: 50px;
+}
+#bot-top>.icons>div>button>a>img:hover{
+    cursor: pointer;
+    transform: scale(1.4);
+    transition: 0.5s;
+    z-index: 102;
+
+}
